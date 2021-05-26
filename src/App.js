@@ -1,5 +1,5 @@
 import React from 'react'
-import Accordion from './components/Accordion';
+// import Accordion from './components/Accordion';
 import Search from './components/Search'; 
 
 const items = [
@@ -20,7 +20,7 @@ const items = [
 export default () => {
   return (
     <div className="ui container" style={{ marginTop: '30px' }}> 
-      <Search />
+      <Search items={items} />
     </div>
   )
 }
